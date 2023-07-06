@@ -2,8 +2,10 @@ package io.getarrays.userservice.service;
 
 import io.getarrays.userservice.domain.Role;
 import io.getarrays.userservice.domain.User;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
+@Service
 
 public interface UserService {
 
